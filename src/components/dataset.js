@@ -17,7 +17,7 @@ let garbageList = [
     {
         image: "https://i.postimg.cc/vH315V61/infectious-waste.png",
         typeId: 4,
-        name: "Unfectious Waste",
+        name: "infectious Waste",
     },
     {
         image: "https://i.postimg.cc/6Q7GWpq8/hazardeous-and-others.png",
@@ -35,34 +35,40 @@ let questionsList = [
         name: "Metal blade",
         hindiName: "धातु ब्लेड",
         image: "https://i.postimg.cc/5NqBTyQ1/blades-metal-sharps.png",
-        typeId: 1,
-        descriptionEng: "Connects learning to real-world scenarios faced by healthcare workers.",
-        descriptionHindi: "सीखने को स्वास्थ्य कर्मियों द्वारा सामना किए जाने वाले वास्तविक दुनिया के परिदृश्यों से जोड़ता है।",
-
+        typeId: 3,
+        descriptionEng: "Metal Sharps waste sharps such as needles and blades.",
+        descriptionHindi: "मेटल शार्प सुई और ब्लेड जैसे शार्प को बर्बाद कर देते हैं।",
     },
     {
         name: "Broken glass",
         hindiName: "टूटा हुआ शीशा",
         image: "https://i.postimg.cc/13vpRdKj/broken-glass-bottel-glass-sharps.png",
-        typeId: 2,
-        descriptionEng: "Google's service, offered free of charge, instantly translates words, phrases, and web pages between English and over 100 other languages",
-        descriptionHindi: "Google की निःशुल्क सेवा, अंग्रेजी और 100 से अधिक अन्य भाषाओं के बीच शब्दों, वाक्यांशों और वेब पेजों का तुरंत अनुवाद करती है",
-    },
+        typeId: 6,
+        descriptionEng: "Glass weights and metallic implants(Blue) Glassware such as broken dicarded vials, bottles, slides, glass petris dishes etc.",
+        descriptionHindi: "कांच के बाट और धात्विक प्रत्यारोपण (नीला) कांच के बर्तन जैसे टूटी हुई शीशियां, बोतलें, स्लाइड, कांच के पेट्रीस डिश आदि।",    },
     {
         name: "Discarded placenta",
         hindiName: "त्याग दिया गया प्लेसेंटा",
         image: "https://i.postimg.cc/s2877ZqP/discarded-placenta-infectious-waste.png",
-        typeId: 3,
-        descriptionEng: "Connects learning to real-world scenarios faced by healthcare workers.",
-        descriptionHindi: "सीखने को स्वास्थ्य कर्मियों द्वारा सामना किए जाने वाले वास्तविक दुनिया के परिदृश्यों से जोड़ता है।",
+        typeId: 4,
+        descriptionEng: "Antomical waste , chemical waste, solid waste,chemotherapy waste, discarded linen. mediciens and laboratory waste. ",
+        descriptionHindi: "रासायनिक अपशिष्ट, रासायनिक अपशिष्ट, ठोस अपशिष्ट, कीमोथेरेपी अपशिष्ट, त्याग दिया गया लिनेन। औषधियाँ और प्रयोगशाला अपशिष्ट। (पीला)",
+    },
+    {
+        name: "Empthy Blood Bag and Used Syringe",
+        hindiName: "खाली खून की थैली और प्रयुक्त सिरिंज",
+        image: "https://i.postimg.cc/tC56Dc84/empty-blood-bag-and-syringe-infected-plastics.png",
+        typeId: 2,
+        descriptionEng: "Contaminated Plastic waste(Red) Disposable items such as tubing, plastic botles, intervaneous tubes and catheters, syringe without needles.(Yellow)",
+        descriptionHindi: "दूषित प्लास्टिक कचरा (लाल) डिस्पोजेबल वस्तुएं जैसे ट्यूबिंग, प्लास्टिक की बोतलें, इंटरवेनस ट्यूब और कैथेटर, सुई के बिना सिरिंज।",
     },
     {
         name: "Metal blade",
         hindiName: "धातु ब्लेड",
         image: "https://i.postimg.cc/5NqBTyQ1/blades-metal-sharps.png",
-        typeId: 4,
-        descriptionEng: "Google's service, offered free of charge, instantly translates words, phrases, and web pages between English and over 100 other languages",
-        descriptionHindi: "Google की निःशुल्क सेवा, अंग्रेजी और 100 से अधिक अन्य भाषाओं के बीच शब्दों, वाक्यांशों और वेब पेजों का तुरंत अनुवाद करती है",
+        typeId: 3,
+        descriptionEng: "Metal Sharps waste sharps such as needles and blades.",
+        descriptionHindi: "मेटल शार्प सुई और ब्लेड जैसे शार्प को बर्बाद कर देते हैं।",
     }
 ]
 
